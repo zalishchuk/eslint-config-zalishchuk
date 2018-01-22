@@ -31,7 +31,7 @@ module.exports = {
   ],
   'react/forbid-foreign-prop-types': 'error',
   'react/no-access-state-in-setstate': 'error',
-  'react/no-array-index-key': 'error',
+  'react/no-array-index-key': 'warn',
   'react/no-children-prop': 'error',
   'react/no-danger': 'warn',
   'react/no-danger-with-children': 'error',

@@ -67,7 +67,7 @@ module.exports = {
       },
     },
     {
-      enforceForRenamedProperties: true,
+      enforceForRenamedProperties: false,
     },
   ],
   'prefer-numeric-literals': 'error',
@@ -76,7 +76,7 @@ module.exports = {
   'prefer-template': 'error',
   'require-yield': 'error',
   'sort-imports': [
-    'error',
+    'off',
     {
       ignoreCase: false,
       ignoreMemberSort: false,

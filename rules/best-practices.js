@@ -49,13 +49,13 @@ module.exports = {
   ],
   'no-implicit-globals': 'off',
   'no-implied-eval': 'error',
-  'no-invalid-this': 'error',
+  'no-invalid-this': 'off',
   'no-iterator': 'error',
   'no-labels': ['error', { allowLoop: false, allowSwitch: false }],
   'no-lone-blocks': 'error',
   'no-loop-func': 'error',
   'no-magic-numbers': [
-    'error',
+    'off',
     {
       ignore: [],
       ignoreArrayIndexes: true,

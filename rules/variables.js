@@ -17,7 +17,7 @@ module.exports = {
   'no-shadow-restricted-names': 'error',
   'no-undef': ['error', { typeof: true }],
   'no-undef-init': 'error',
-  'no-undefined': 'error',
+  'no-undefined': 'off',
   'no-unused-vars': [
     'error',
     {

@@ -18,7 +18,6 @@ module.exports = {
     'error',
     {
       position: 'above',
-      ignorePattern: '',
       applyDefaultIgnorePatterns: true,
     },
   ],
@@ -48,7 +47,7 @@ module.exports = {
   'no-array-constructor': 'error',
   'no-bitwise': 'error',
   'no-continue': 'error',
-  'no-inline-comments': 'error',
+  'no-inline-comments': 'off',
   'no-lonely-if': 'error',
   'no-multi-assign': 'error',
   'no-negated-condition': 'off',
@@ -80,7 +79,7 @@ module.exports = {
   ],
   'no-ternary': 'off',
   'no-underscore-dangle': [
-    'error',
+    'off',
     {
       allow: [],
       allowAfterThis: false,
