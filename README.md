@@ -4,7 +4,7 @@
 [![npm downloads in the last month](https://img.shields.io/npm/dm/eslint-config-zalishchuk.svg)](https://www.npmjs.com/package/eslint-config-zalishchuk)
 [![styled with prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
-My own configuration collected from the best places in the universe. 🚀
+My own ESLint configuration rules collected from all corners of the universe. 🚀
 
 ## Usage
 
