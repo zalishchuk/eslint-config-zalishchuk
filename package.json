@@ -1,0 +1,43 @@
+{
+  "name": "eslint-config-zalishchuk",
+  "version": "0.0.1",
+  "description": "My own ESLint sharable configuration",
+  "main": "index.js",
+  "author":
+    "Alexander Zalishchuk <zalishchuk.me@ya.ru> (https://github.com/zalishchuk)",
+  "keywords": ["eslint", "eslintconfig", "config", "javascript", "styleguide"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zalishchuk/eslint-config-zalishchuk"
+  },
+  "scripts": {
+    "lint": "eslint {rules,settings}/**"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8"
+  },
+  "homepage": "https://github.com/zalishchuk/eslint-config-zalishchuk",
+  "bugs": {
+    "url": "https://github.com/zalishchuk/eslint-config-zalishchuk/bugs"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.5.0",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.10.2"
+  },
+  "peerDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.5.0",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.10.2"
+  },
+  "dependencies": {
+    "eslint-restricted-globals": "^0.1.1"
+  }
+}
