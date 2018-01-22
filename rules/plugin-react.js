@@ -96,15 +96,15 @@ module.exports = {
       ],
     },
   ],
-  // 'react/sort-prop-types': [
-  //   'error',
-  //   {
-  //     ignoreCase: true,
-  //     callbacksLast: true,
-  //     sortShapeProp: true,
-  //     requiredFirst: false,
-  //   },
-  // ],
+  'react/sort-prop-types': [
+    'off',
+    {
+      ignoreCase: true,
+      callbacksLast: true,
+      sortShapeProp: true,
+      requiredFirst: false,
+    },
+  ],
   'react/style-prop-object': 'error',
   'react/void-dom-elements-no-children': 'error',
   'react/jsx-filename-extension': [
@@ -158,23 +158,24 @@ module.exports = {
       allowAllCaps: true,
     },
   ],
-  // 'react/jsx-sort-default-props': [
-  //   'error',
-  //   {
-  //     ignoreCase: true,
-  //   },
-  // ],
-  // 'react/jsx-sort-props': [
-  //   'error',
-  //   {
-  //     ignoreCase: true,
-  //     callbacksLast: false,
-  //     shorthandLast: true,
-  //     shorthandFirst: false,
-  //     noSortAlphabetically: false,
-  //     reservedFirst: false,
-  //   },
-  // ],
+  // TODO: review sort rules
+  'react/jsx-sort-default-props': [
+    'off',
+    {
+      ignoreCase: true,
+    },
+  ],
+  'react/jsx-sort-props': [
+    'off',
+    {
+      ignoreCase: true,
+      callbacksLast: false,
+      shorthandLast: true,
+      shorthandFirst: false,
+      noSortAlphabetically: false,
+      reservedFirst: false,
+    },
+  ],
   'react/jsx-uses-react': 'error',
   'react/jsx-uses-vars': 'error',
 };

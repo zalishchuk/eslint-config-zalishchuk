@@ -15,7 +15,7 @@ module.exports = {
   'id-length': 'off',
   'id-match': 'off',
   'line-comment-position': [
-    'error',
+    'off',
     {
       position: 'above',
       applyDefaultIgnorePatterns: true,
