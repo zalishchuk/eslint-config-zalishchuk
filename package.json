@@ -11,7 +11,7 @@
     "url": "https://github.com/zalishchuk/eslint-config-zalishchuk"
   },
   "scripts": {
-    "lint": "eslint {rules,settings}/**"
+    "test": "eslint {rules,settings}/**"
   },
   "license": "MIT",
   "engines": {
