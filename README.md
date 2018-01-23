@@ -1,8 +1,9 @@
 # eslint-config-zalishchuk
 
+[![Travis CI build](https://img.shields.io/travis/zalishchuk/eslint-config-zalishchuk.svg)](https://travis-ci.org/zalishchuk/eslint-config-zalishchuk)
 [![npm version](https://img.shields.io/npm/v/eslint-config-zalishchuk.svg)](https://www.npmjs.com/package/eslint-config-zalishchuk)
 [![npm downloads in the last month](https://img.shields.io/npm/dm/eslint-config-zalishchuk.svg)](https://www.npmjs.com/package/eslint-config-zalishchuk)
-[![styled with prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
+[![Styled with Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
 My own ESLint configuration rules collected from all corners of the universe. 🚀
 
