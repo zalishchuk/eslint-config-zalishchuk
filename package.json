@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zalishchuk",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "My own ESLint sharable configuration",
   "main": "index.js",
   "author":
