@@ -86,10 +86,12 @@ module.exports = {
     {
       order: [
         'static-methods',
+        'instance-variables',
         'lifecycle',
         '/^(on|handle).+$/',
         'getters',
         'setters',
+        'instance-methods',
         'everything-else',
         '/^render.+$/',
         'render',

@@ -17,6 +17,7 @@ module.exports = {
         'componentWillUpdate',
         'componentDidUpdate',
         'componentWillUnmount',
+        'componentDidCatch',
       ],
     },
   ],
@@ -77,27 +78,27 @@ module.exports = {
     {
       object: 'arguments',
       property: 'callee',
-      message: 'arguments.callee is deprecated',
+      message: 'arguments.callee is deprecated.',
     },
     {
       object: 'global',
       property: 'isFinite',
-      message: 'Please use Number.isFinite instead',
+      message: 'Please use Number.isFinite instead.',
     },
     {
       object: 'self',
       property: 'isFinite',
-      message: 'Please use Number.isFinite instead',
+      message: 'Please use Number.isFinite instead.',
     },
     {
       object: 'window',
       property: 'isFinite',
-      message: 'Please use Number.isFinite instead',
+      message: 'Please use Number.isFinite instead.',
     },
     {
       object: 'global',
       property: 'isNaN',
-      message: 'Please use Number.isNaN instead',
+      message: 'Please use Number.isNaN instead.',
     },
     {
       object: 'self',
@@ -107,7 +108,7 @@ module.exports = {
     {
       object: 'window',
       property: 'isNaN',
-      message: 'Please use Number.isNaN instead',
+      message: 'Please use Number.isNaN instead.',
     },
     {
       property: '__defineGetter__',
