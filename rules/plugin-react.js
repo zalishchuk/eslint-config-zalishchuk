@@ -123,6 +123,7 @@ module.exports = {
     },
   ],
   'react/jsx-key': 'error',
+  'react/jsx-no-depth': 'off',
   'react/jsx-no-bind': [
     'error',
     {

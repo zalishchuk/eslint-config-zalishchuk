@@ -3,9 +3,14 @@
   "version": "0.0.6",
   "description": "My own ESLint sharable configuration",
   "main": "index.js",
-  "author":
-    "Alexander Zalishchuk <zalishchuk.me@ya.ru> (https://github.com/zalishchuk)",
-  "keywords": ["eslint", "eslintconfig", "config", "javascript", "styleguide"],
+  "author": "Alexander Zalishchuk <zalishchuk.me@ya.ru> (https://github.com/zalishchuk)",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/zalishchuk/eslint-config-zalishchuk"
@@ -22,19 +27,19 @@
     "url": "https://github.com/zalishchuk/eslint-config-zalishchuk/bugs"
   },
   "devDependencies": {
-    "eslint": "^4.17.0",
+    "eslint": "^4.18.1",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.6.1",
+    "eslint-plugin-react": "^7.7.0",
     "prettier": "^1.10.2"
   },
   "peerDependencies": {
-    "eslint": "^4.17.0",
+    "eslint": "^4.18.1",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.6.1",
+    "eslint-plugin-react": "^7.7.0",
     "prettier": "^1.10.2"
   },
   "dependencies": {
