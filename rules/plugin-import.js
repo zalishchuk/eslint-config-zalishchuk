@@ -34,7 +34,7 @@ module.exports = {
   'import/no-amd': 'error',
   'import/no-nodejs-modules': 'off',
   'import/first': 'off',
-  'import/exports-last': 'error',
+  'import/exports-last': 'off',
   'import/no-duplicates': 'error',
   'import/no-namespace': 'off',
   'import/extensions': [
@@ -60,7 +60,7 @@ module.exports = {
   'import/no-named-default': 'error',
   'import/no-default-export': 'off',
   'import/no-anonymous-default-export': [
-    'error',
+    'off',
     {
       allowArray: true,
       allowArrowFunction: false,
