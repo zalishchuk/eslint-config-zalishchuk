@@ -27,8 +27,10 @@
     "url": "https://github.com/zalishchuk/eslint-config-zalishchuk/bugs"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flowtype": "^2.46.3",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.8.2",
@@ -37,6 +39,7 @@
   "peerDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flowtype": "^2.46.3",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.8.2",

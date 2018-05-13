@@ -1,3 +1,4 @@
 {
-  "extends": "./index.js"
+  "parser": "babel-eslint",
+  "extends": ["./index.js", "./flowtype.js"]
 }
