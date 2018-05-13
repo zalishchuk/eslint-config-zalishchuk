@@ -35,7 +35,7 @@ module.exports = {
   'react/no-children-prop': 'error',
   'react/no-danger': 'warn',
   'react/no-danger-with-children': 'error',
-  'react/no-deprecated': 'warning',
+  'react/no-deprecated': 'warn',
   'react/no-did-mount-set-state': 'error',
   'react/no-did-update-set-state': 'error',
   'react/no-direct-mutation-state': 'error',
