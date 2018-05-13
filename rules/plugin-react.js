@@ -2,7 +2,7 @@ module.exports = {
   'react/boolean-prop-naming': [
     'error',
     {
-      rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+',
+      rule: '^(is|has)?[A-Z]([A-Za-z0-9]?)+',
     },
   ],
   'react/default-props-match-prop-types': [
@@ -35,7 +35,7 @@ module.exports = {
   'react/no-children-prop': 'error',
   'react/no-danger': 'warn',
   'react/no-danger-with-children': 'error',
-  'react/no-deprecated': 'error',
+  'react/no-deprecated': 'warning',
   'react/no-did-mount-set-state': 'error',
   'react/no-did-update-set-state': 'error',
   'react/no-direct-mutation-state': 'error',
@@ -86,6 +86,7 @@ module.exports = {
     {
       order: [
         'static-methods',
+        'type-annotations',
         'instance-variables',
         'lifecycle',
         '/^(on|handle).+$/',

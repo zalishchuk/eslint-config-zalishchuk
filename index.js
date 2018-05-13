@@ -9,6 +9,7 @@ const pluginPrettier = require('./rules/plugin-prettier');
 const possibleErrors = require('./rules/possible-errors');
 const stylisticIssues = require('./rules/stylistic-issues');
 const pluginImportSettings = require('./settings/plugin-import');
+const pluginReactSettings = require('./settings/plugin-react');
 
 module.exports = {
   extends: ['prettier', 'prettier/react'],
@@ -27,7 +28,7 @@ module.exports = {
       experimentalObjectRestSpread: true,
     },
   },
-  settings: Object.assign(pluginImportSettings),
+  settings: Object.assign(pluginImportSettings, pluginReactSettings),
   rules: Object.assign(
     es6,
     node,
