@@ -1,4 +1,3 @@
-// @flow
 module.exports = {
   'flowtype/boolean-style': ['error', 'boolean'],
   'flowtype/define-flow-type': 'warn',

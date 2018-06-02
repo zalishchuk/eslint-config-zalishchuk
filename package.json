@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zalishchuk",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "My own ESLint sharable configuration",
   "main": "index.js",
   "author": "Alexander Zalishchuk <zalishchuk.me@ya.ru> (https://github.com/zalishchuk)",
@@ -16,7 +16,7 @@
     "url": "https://github.com/zalishchuk/eslint-config-zalishchuk"
   },
   "scripts": {
-    "test": "eslint {rules,settings}/**"
+    "test": "eslint {rules,settings}/** --fix"
   },
   "license": "MIT",
   "engines": {
