@@ -1,3 +1,4 @@
+// @flow
 module.exports = {
   'flowtype/boolean-style': ['error', 'boolean'],
   'flowtype/define-flow-type': 'warn',
@@ -9,9 +10,10 @@ module.exports = {
   'flowtype/no-unused-expressions': 'error',
   'flowtype/no-weak-types': 'off',
   'flowtype/require-exact-type': 'off',
+  'flowtype/newline-after-flow-annotation': 'error',
   'flowtype/require-parameter-type': 'off',
   'flowtype/require-return-type': 'off',
-  'flowtype/require-valid-file-annotation': ['error', 'always'],
+  'flowtype/require-valid-file-annotation': 'off',
   'flowtype/require-variable-type': 'off',
   'flowtype/sort-keys': 'off',
   'flowtype/type-id-match': ['error', '^([A-Z][a-z0-9]*)+$'],
