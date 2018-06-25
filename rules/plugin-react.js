@@ -54,6 +54,7 @@ module.exports = {
   'react/no-string-refs': 'error',
   'react/no-this-in-sfc': 'off',
   'react/no-unescaped-entities': 'error',
+  'react/no-unsafe': 'warn',
   'react/no-unknown-property': 'error',
   'react/no-unused-prop-types': [
     'error',

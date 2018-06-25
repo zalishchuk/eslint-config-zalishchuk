@@ -25,7 +25,6 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
       impliedStrict: true,
-      experimentalObjectRestSpread: true,
     },
   },
   settings: Object.assign(pluginImportSettings, pluginReactSettings),
