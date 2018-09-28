@@ -177,4 +177,8 @@ module.exports = {
   'require-await': 'off',
   'vars-on-top': 'error',
   yoda: ['error', 'never', { exceptRange: true, onlyEquality: false }],
+  'no-misleading-character-class': 'error',
+  'require-atomic-updates': 'off',
+  'no-async-promise-executor': 'error',
+  'require-unicode-regexp': 'error',
 };
