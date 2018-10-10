@@ -3,6 +3,7 @@
 [![Travis CI build](https://img.shields.io/travis/zalishchuk/eslint-config-zalishchuk.svg)](https://travis-ci.org/zalishchuk/eslint-config-zalishchuk)
 [![npm version](https://img.shields.io/npm/v/eslint-config-zalishchuk.svg)](https://www.npmjs.com/package/eslint-config-zalishchuk)
 [![npm downloads in the last month](https://img.shields.io/npm/dm/eslint-config-zalishchuk.svg)](https://www.npmjs.com/package/eslint-config-zalishchuk)
+[![peer dependencies status](https://david-dm.org/zalishchuk/eslint-config-zalishchuk/peer-status.svg)](https://david-dm.org/zalishchuk/eslint-config-zalishchuk)
 [![Styled with Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
 My own ESLint configuration rules collected from all corners of the universe. ðŸš€
@@ -11,13 +12,13 @@ My own ESLint configuration rules collected from all corners of the universe. ðŸ
 
 This configuration uses `prettier` for code formatting and contains React&ECMAScript 6+ best practices, possible errors, stylistic issues, etc. It requires some dependencies for advanced ESLint setup:
 
-* [eslint](https://www.npmjs.com/package/eslint)
-* [prettier](https://www.npmjs.com/package/prettier)
-* [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
-* [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
-* [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
-* [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
-* [eslint-plugin-flowtype](https://www.npmjs.com/package/eslint-plugin-flowtype) (optional)
+- [eslint](https://www.npmjs.com/package/eslint)
+- [prettier](https://www.npmjs.com/package/prettier)
+- [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
+- [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
+- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
+- [eslint-plugin-flowtype](https://www.npmjs.com/package/eslint-plugin-flowtype) (optional)
 
 ### Installation
 
