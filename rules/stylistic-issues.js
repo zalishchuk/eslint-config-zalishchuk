@@ -1,7 +1,7 @@
 module.exports = {
   camelcase: ['error', { properties: 'never' }],
   'capitalized-comments': 'off',
-  'consistent-this': ['error', 'that'],
+  'consistent-this': 'off',
   'func-name-matching': [
     'error',
     'always',

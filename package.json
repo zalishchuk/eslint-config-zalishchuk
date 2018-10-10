@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zalishchuk",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "My own ESLint sharable configuration",
   "main": "index.js",
   "author": "Alexander Zalishchuk <zalishchuk.me@ya.ru> (https://github.com/zalishchuk)",
@@ -32,7 +32,7 @@
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-flowtype": "^2.50.3",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
     "prettier": "^1.14.3"
   },
@@ -40,7 +40,7 @@
     "eslint": "^5.6.1",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
     "prettier": "^1.14.3"
   },

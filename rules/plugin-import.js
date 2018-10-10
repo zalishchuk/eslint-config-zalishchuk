@@ -35,6 +35,7 @@ module.exports = {
         'test-*.{js,jsx}',
         '**/*{.,_}{test,spec}.{js,jsx}',
         '**/jest.config.js',
+        '**/vue.config.js',
         '**/webpack.config.js',
         '**/webpack.config.*.js',
         '**/rollup.config.js',
@@ -54,17 +55,17 @@ module.exports = {
   'import/no-commonjs': 'off',
   'import/no-amd': 'error',
   'import/no-nodejs-modules': 'off',
-  'import/first': ['error', 'absolute-first'],
+  'import/first': 'error',
   'import/exports-last': 'off',
   'import/no-duplicates': 'error',
   'import/no-namespace': 'off',
   'import/extensions': [
     'error',
-    'always',
+    'ignorePackages',
     {
       js: 'never',
-      mjs: 'never',
       jsx: 'never',
+      mjs: 'never',
     },
   ],
   'import/order': [

@@ -26,6 +26,8 @@ module.exports = {
   'react/forbid-prop-types': [
     'warn',
     {
+      checkChildContextTypes: true,
+      checkContextTypes: true,
       forbid: ['any', 'array', 'object'],
     },
   ],
@@ -85,18 +87,41 @@ module.exports = {
   'react/sort-comp': [
     'error',
     {
+      groups: {
+        lifecycle: [
+          'displayName',
+          'propTypes',
+          'contextTypes',
+          'childContextTypes',
+          'mixins',
+          'statics',
+          'defaultProps',
+          'constructor',
+          'getDefaultProps',
+          'getInitialState',
+          'state',
+          'getChildContext',
+          'componentWillMount',
+          'componentDidMount',
+          'componentWillReceiveProps',
+          'shouldComponentUpdate',
+          'componentWillUpdate',
+          'componentDidUpdate',
+          'componentWillUnmount',
+        ],
+        rendering: ['/^render.+$/', 'render'],
+      },
       order: [
         'static-methods',
-        'type-annotations',
         'instance-variables',
         'lifecycle',
         '/^(on|handle).+$/',
         'getters',
         'setters',
+        '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
         'instance-methods',
         'everything-else',
-        '/^render.+$/',
-        'render',
+        'rendering',
       ],
     },
   ],
@@ -131,6 +156,7 @@ module.exports = {
     {
       ignoreRefs: true,
       allowArrowFunctions: true,
+      ignoreDOMComponents: true,
       allowFunctions: false,
       allowBind: false,
     },
@@ -148,7 +174,12 @@ module.exports = {
       noStrings: true,
     },
   ],
-  'react/jsx-no-target-blank': 'error',
+  'react/jsx-no-target-blank': [
+    'error',
+    {
+      enforceDynamicLinks: 'always',
+    },
+  ],
   'react/jsx-no-undef': 'error',
   'react/jsx-curly-brace-presence': [
     'error',
