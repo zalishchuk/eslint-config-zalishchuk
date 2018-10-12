@@ -183,5 +183,5 @@ module.exports = {
   'no-misleading-character-class': 'error',
   'require-atomic-updates': 'off',
   'no-async-promise-executor': 'error',
-  'require-unicode-regexp': 'error',
+  'require-unicode-regexp': 'off',
 };
